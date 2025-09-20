@@ -1,0 +1,15 @@
+I used ChatGPT (GPT-5 Thinking) as a study assistant for this assignment. The tool helped me:
+- Part 1: explore reward distributions, visualize histograms, and draft a concise algorithm choice.
+- Part 2: implement/parameterize UCB1, Thompson Sampling (Bernoulli), and ε-greedy; run 1,000 pulls with the required seed; and log history.tsv.
+- Part 3: aggregate per-arm statistics (min/mean/max) and write actions.tsv.
+- Part 4: compute pseudo-regret for the uniform, just-i, and actual strategies and write strategies.tsv.
+
+All code was reviewed, executed, and validated by me; I take full responsibility for the final submission.
+
+
+Additional libraries used:
+- numpy (arrays, RNG), pandas (TSV I/O and groupby), matplotlib (diagnostic histograms in Part 1).
+No other external libraries beyond the module requirements were used.
+
+People acknowledged:
+- None.

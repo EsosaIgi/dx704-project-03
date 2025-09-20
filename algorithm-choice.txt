@@ -1,0 +1,4 @@
+UCB1
+
+Justification:
+Rewards are non-binary and roughly bounded/sub-Gaussian (count-like with uniform jitter). UCB1 is distribution-agnostic under sub-Gaussian tails and needs minimal tuning. I reject epsilon-greedy (slower due to fixed ε schedule) and Bernoulli Thompson Sampling (model misspecification for non-binary rewards).
